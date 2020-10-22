@@ -39,6 +39,10 @@ while True:
       feelings_list.append("relaxed")
       encouragement_list.append("Good for you!")
       counter += 1 
+    if each_word == "useless":
+      feelings_list.append("useless")
+      encouragement_list.append("you are more useful than annoying ads that companies spend thousands on")
+      counter += 1
       
     if counter == 0:
 
